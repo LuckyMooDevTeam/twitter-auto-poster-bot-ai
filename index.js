@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate a tweet celebrating the Rafael Nadal, the 'King of Clay' retirement and impressive achievement, encouraging people to buy his 'RafaClay' token from https://pump.fun/coin/Eg27JVJhd4E5ANWn6tHkxKURTsggsbfACLebmFP8pump ,it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis and crypto and meme related hashtags";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
