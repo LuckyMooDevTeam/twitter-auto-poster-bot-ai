@@ -19,6 +19,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "20.x"
+      - name: Introduce random delay
+        run: |
+          # Generate a random delay between 0 and 1800 seconds (30 minutes)
+          DELAY=$((30 * 60 + RANDOM % (30 * 60)))
+          echo "Sleeping for $DELAY seconds..."
+          sleep $DELAY
       - name: Install Dependencies
         run: npm i
       - name: Run Twitter bot
