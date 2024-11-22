@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a tweet celebrating the Rafael Nadal, the 'King of Clay' retirement and impressive achievement, encouraging people to buy his 'RafaClay' token from https://pump.fun/coin/Eg27JVJhd4E5ANWn6tHkxKURTsggsbfACLebmFP8pump ,it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis and crypto and meme related hashtags";
+    "generate a tweet introducing luckymoo token, constantly achieving new all time highs, encouraging people to buy 'luckymoo' token from either https://www.dextools.io/app/en/solana/pair-explorer/5mnKKcKWKvW8Ejr8qFLkuEXr9AN9Gm1YeLvufNjfZe4u?t=1732281338179 or https://birdeye.so/token/CbbCD8B43sGxCUCcNTuy8ASCAkhVkuveVwraGQC11Hmf/5mnKKcKWKvW8Ejr8qFLkuEXr9AN9Gm1YeLvufNjfZe4u?chain=solana,it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis and crypto and meme related hashtags";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
