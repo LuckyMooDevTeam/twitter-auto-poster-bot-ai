@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a tweet introducing luckymoo token, constantly achieving new all time highs, encouraging people to buy 'luckymoo' token from either one of the links https://www.dextools.io/app/en/solana/pair-explorer/5mnKKcKWKvW8Ejr8qFLkuEXr9AN9Gm1YeLvufNjfZe4u?t=1732281338179 or https://birdeye.so/token/CbbCD8B43sGxCUCcNTuy8ASCAkhVkuveVwraGQC11Hmf/5mnKKcKWKvW8Ejr8qFLkuEXr9AN9Gm1YeLvufNjfZe4u?chain=solana, or join the telegram group at https://t.me/LUCKYMOOCOIN, asking community to pump together to make LuckyMoo the first cow-themed coin to reach a $1B Market Cap, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis and crypto and meme related hashtags";
+    "generate a tweet encouraging people to buy "luckymoo" $LUCKYMOO token, constantly achieving new all time highs, from either one of the links https://www.dextools.io/app/en/solana/pair-explorer/5mnKKcKWKvW8Ejr8qFLkuEXr9AN9Gm1YeLvufNjfZe4u?t=1732281338179 or https://birdeye.so/token/CbbCD8B43sGxCUCcNTuy8ASCAkhVkuveVwraGQC11Hmf/5mnKKcKWKvW8Ejr8qFLkuEXr9AN9Gm1YeLvufNjfZe4u?chain=solana, or join the $LUCKYMOO telegram group at https://t.me/LUCKYMOOCOIN, asking community to pump together to make $LuckyMoo the first cow-themed coin to reach a $1B Market Cap, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis and crypto and meme related hashtags";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
